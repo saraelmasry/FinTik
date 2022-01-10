@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fintik">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinTik">
+        <activity android:name=".SetPassword_SingUp"></activity>
+        <activity android:name=".PersonalInfo_SingUp" />
+        <activity android:name=".PersonalInformation_SignUp" />
+        <activity android:name=".ScanID_SignUp" />
+        <activity android:name=".VerifyScreen_SingUp" />
+        <activity android:name=".FirstScreen_SingUp" />
+        <activity android:name=".Login" />
+        <activity android:name=".Splash_FinTik">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

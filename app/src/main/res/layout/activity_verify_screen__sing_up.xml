@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".VerifyScreen_SingUp">
+    <RelativeLayout
+        android:layout_width="362dp"
+        android:layout_height="600dp"
+        android:background="@drawable/frame1"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="36dp"
+        android:layout_gravity="center"
+        >
+
+
+        <TextView
+            android:layout_width="306dp"
+            android:layout_height="93dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="478dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/confirmation_code_has_been_sent_to_your_mobile_and_e_mail"
+            android:textColor="@color/Black_Title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:layout_width="306dp"
+            android:layout_height="101dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="137dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginBottom="362dp"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:text="@string/the_code_has_been_sent_to_phone_number_and_second_portion_to_email_please_enter_the_code_below"
+            android:textColor="@color/Light_Gray"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/txtConfirmCode"
+            android:layout_width="340dp"
+            android:layout_height="62dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="215dp"
+            android:autofillHints="Phone Number"
+            android:background="@drawable/field1"
+            android:fontFamily="@font/montserrat"
+            android:hint="@string/confirm_code"
+            android:gravity="center"
+            android:inputType="number"
+            android:paddingStart="10dp"
+            tools:ignore="RtlSymmetry,TextFields" />
+        <TextView
+            android:id="@+id/txtResendCodeAgain"
+            android:layout_width="81dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginEnd="33dp"
+            android:fontFamily="@font/montserrat"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="@color/Gray"
+            android:text="@string/resend_code_again"/>
+
+
+        <Button
+            android:id="@+id/btNext2"
+            android:layout_width="242dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/button1"
+            android:text="@string/next"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/Gray"
+            android:drawableEnd="@drawable/ic_arrow_"
+            android:textSize="14sp"  />
+
+    </RelativeLayout>
+
+</LinearLayout>

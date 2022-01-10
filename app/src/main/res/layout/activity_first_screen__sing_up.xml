@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    tools:context=".FirstScreen_SingUp">
+ <RelativeLayout
+        android:layout_width="362dp"
+        android:layout_height="600dp"
+        android:background="@drawable/frame1"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="36dp"
+        android:layout_gravity="center"
+        >
+
+
+     <TextView
+         android:layout_width="260dp"
+         android:layout_height="74dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginStart="48dp"
+         android:layout_marginTop="29dp"
+         android:layout_marginEnd="52dp"
+         android:layout_marginBottom="501dp"
+         android:fontFamily="@font/montserrat"
+         android:gravity="center"
+         android:text="@string/please_enter_your_mobile_phone_email"
+         android:textColor="@color/Black_Title"
+         android:textSize="22sp"
+         android:textStyle="bold"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <TextView
+         android:layout_width="260dp"
+         android:layout_height="74dp"
+         android:layout_alignParentStart="true"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginStart="40dp"
+         android:layout_marginTop="111dp"
+         android:layout_marginEnd="40dp"
+         android:layout_marginBottom="419dp"
+         android:fontFamily="@font/montserrat"
+         android:gravity="center"
+         android:text="@string/we_ll_use_your_mobile_phone_and_e_mail_to_send_you_the_activation_code_for_this_application"
+         android:textColor="@color/Light_Gray"
+         android:textSize="17sp"
+         android:textStyle="bold"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <EditText
+         android:id="@+id/txtEnterPhoneNumber"
+         android:layout_width="340dp"
+         android:layout_height="62dp"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginStart="10dp"
+         android:layout_marginTop="200dp"
+         android:layout_marginEnd="12dp"
+         android:layout_marginBottom="303dp"
+         android:autofillHints="Phone Number"
+         android:background="@drawable/field1"
+         android:fontFamily="@font/montserrat"
+         android:hint="@string/phone_number"
+         android:inputType="phone"
+         android:paddingStart="10dp"
+         tools:ignore="RtlSymmetry,TextFields" />
+
+     <EditText
+         android:id="@+id/txtEnterEmail"
+         android:layout_width="340dp"
+         android:layout_height="62dp"
+         android:layout_alignParentEnd="true"
+         android:layout_alignParentBottom="true"
+         android:layout_marginStart="10dp"
+         android:layout_marginTop="267dp"
+         android:layout_marginEnd="12dp"
+         android:layout_marginBottom="208dp"
+         android:autofillHints="@string/enter_your_password"
+         android:background="@drawable/field1"
+         android:fontFamily="@font/montserrat"
+         android:hint="@string/e_mail"
+         android:inputType="textEmailAddress"
+         android:paddingStart="10dp"
+         tools:ignore="RtlSymmetry" />
+
+     <Button
+            android:id="@+id/btNext1"
+            android:layout_width="242dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginEnd="60dp"
+            android:background="@drawable/button1"
+            android:text="@string/next"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/Gray"
+            android:drawableEnd="@drawable/ic_arrow_"
+            android:textSize="14sp"  />
+
+    </RelativeLayout>
+
+</LinearLayout>
